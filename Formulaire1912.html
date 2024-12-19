@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <form action="">
+      <label for="nom"> Name </label>
+      <!-- for = id de input type=texte id=nom-->
+      <br />
+      <input type="text" name="" id="nom" placeholder="Name" />
+      <br />
+      <label>Choose a number </label>
+      <br />
+      <!-- selection one radio -->
+      <input type="radio" value="1" name="R1" /> 1
+      <input type="radio" value="2" name="R1" /> 2
+      <input type="radio" value="3" name="R1" /> 3
+      <br />
+      <label>Choose all number</label>
+      <br />
+      <!-- selection all radio -->
+      <input type="radio" value="1" name="R1" /> 1
+      <input type="radio" value="2" name="R2" /> 2
+      <input type="radio" value="3" name="R3" /> 3
+      <br />
+      <label>Choose a number</label>
+      <br />
+      <!-- selection all radio -->
+      <input type="checkbox" value="1" name="C1" /> 1
+      <input type="checkbox" value="2" name="C2" /> 2
+      <input type="checkbox" value="3" name="C3" /> 3
+
+      <!-- 
+    1/ id unique identified
+    2/ name is possible to repetet
+    3/ value afficage  -->
+      <br />
+      Favoir Color :
+      <br />
+      <select name="listeroulant" id="L1">
+        <option selected>select one ...</option>
+        <option value="">Orange</option>
+        <option value="">Red</option>
+        <option value="">Gray</option>
+      </select>
+      <br />
+      <!-- 
+    1/disable
+    2/hidden une fois sélectioné on ne peut pas changer-->
+      Favoir Color disabled :
+      <br />
+      <select name="listeroulant" id="L1">
+        <option selected disabled>select one ...</option>
+        <option value="">Orange</option>
+        <option value="">Red</option>
+        <option value="">Gray</option>
+      </select>
+      <br />
+      Favoir Color hidden :
+      <br />
+      <select name="listeroulant" id="L1">
+        <option selected hidden>select one ...</option>
+        <option value="">Orange</option>
+        <option value="">Red</option>
+        <option value="">Gray</option>
+      </select>
+      <br />
+      Your birthday :
+      <br />
+      <input type="date" name="" id="" />
+      <br />
+      Time Day :
+      <input type="datetime-local" name="" id="" />
+      <br />
+      <!-- type of button
+      1/ <input type="button" name="" id="" value="Send" /> 
+      2/ ou bien -->
+      <button type="submit">Send</button>
+      <button type="reset">Cancel</button>
+    </form>
+  </body>
+</html>
